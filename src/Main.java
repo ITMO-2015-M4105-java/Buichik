@@ -10,7 +10,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		if(args.length!= 2 || args[0].isEmpty() || args[1].isEmpty()) throw new IOException("Неверные аргументы");
+		if(args.length!= 2 || args[0].isEmpty() || args[1].isEmpty()) throw new IOException("РќРµРІРµСЂРЅС‹Рµ Р°СЂРіСѓРјРµРЅС‚С‹");
 		String path = args[0];
 		String colors = args[1];
 		

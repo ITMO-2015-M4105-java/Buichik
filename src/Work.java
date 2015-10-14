@@ -44,7 +44,7 @@ public class Work
 		    		sc.close();
 				}
 			}
-			else throw new FileNotFoundException("Файл с цветами не найден");
+			else throw new FileNotFoundException("Р¤Р°Р№Р» СЃ С†РІРµС‚Р°РјРё РЅРµ РЅР°Р№РґРµРЅ");
 		}
 		catch(IOException e)
 		{
@@ -65,7 +65,7 @@ public class Work
 		Pattern p = Pattern.compile("^([^\\s]+)\\s([\\d]+)$");
 		try
 		{
-			if(fList.length==0) throw new IOException("Папка с продуктами пуста");
+			if(fList.length==0) throw new IOException("РџР°РїРєР° СЃ РїСЂРѕРґСѓРєС‚Р°РјРё РїСѓСЃС‚Р°");
 			boolean isEmpty = true;
 			for(int i=0; i<fList.length; i++)           
 			{
@@ -96,7 +96,7 @@ public class Work
 					}
 				}
 			}
-			if(isEmpty) throw new IOException("Папка с продуктами пуста");
+			if(isEmpty) throw new IOException("РџР°РїРєР° СЃ РїСЂРѕРґСѓРєС‚Р°РјРё РїСѓСЃС‚Р°");
 		}
 		catch(IOException e)
 		{
