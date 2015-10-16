@@ -10,7 +10,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Created by Антон on 16.10.2015.
+ * Created by РђРЅС‚РѕРЅ on 16.10.2015.
  */
 public class Work {
 
@@ -68,7 +68,7 @@ public class Work {
         Pattern p = Pattern.compile("^([^\\s]+)\\s([\\d]+)$");
         try
         {
-            if(fList.length==0) throw new IOException("Папка с продуктами пуста");
+            if(fList.length==0) throw new IOException("Директория с продуктами пуста");
             boolean isEmpty = true;
             for(int i=0; i<fList.length; i++)
             {
@@ -99,7 +99,7 @@ public class Work {
                     }
                 }
             }
-            if(isEmpty) throw new IOException("Папка с продуктами пуста");
+            if(isEmpty) throw new IOException("Директория с продуктами пуста");
         }
         catch(IOException e)
         {
